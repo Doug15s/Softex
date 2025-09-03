@@ -1,0 +1,45 @@
+
+
+/*console.log(
+    `
+    LUXO        LUXO    LUXO        LUXO    LUXOLUXOLUXO
+    LUXO        LUXO     LUXO      LUXO     LUXOLUXOLUXO
+    LUXO        LUXO      LUXO    LUXO      LUXOLUXOLUXO
+    LUXO        LUXO        LUXOLUXO        LUXO    LUXO
+    LUXO        LUXO        --LUXO--        LUXO    LUXO
+    LUXO        LUXO        LUXOLUXO        LUXO    LUXO
+    LUXOLUXO    LUXO      LUXO    LUXO      LUXOLUXOLUXO
+    LUXOLUXO    LUXO     LUXO      LUXO     LUXOLUXOLUXO
+    LUXOLUXO    LUXO    LUXO        LUXO    LUXOLUXOLUXO
+    
+    `
+)
+
+let passos = ["Levantar", "Lavar o rosto", "Escovar os dentes", "Oração", "Café"];
+
+console.log(`O primeiro passo do dia é: ${passos[0]}`)
+console.log(`O segundo passo do dia é: ${passos[1]}`)
+console.log(`O terceiro passo do dia é: ${passos[2]}`)
+console.log(`O quarto passo do dia é: ${passos[3]}`)
+console.log(`O quinto passo do dia é: ${passos[4]}`)
+*/
+
+
+let passos = {
+    passo1: 'Levantar',
+    hora1: '05:00',
+    passo2: 'Lavar o rosto',
+    hora2: '05:05',
+    passo3: 'Escovar os dentes',
+    hora3: '05:10',
+    passo4: 'Oração',
+    hora4: '05:20',
+    passo5: 'Café',
+    hora5: '05:30'
+}
+
+console.log(`O primeiro passo do dia foi ${passos.passo1} às ${passos.hora1}hs.`)
+console.log(`O segundo passo do dia foi ${passos.passo2} às ${passos.hora2}hs.`)
+console.log(`O terceiro passo do dia foi ${passos.passo3} às ${passos.hora3}hs.`)
+console.log(`O quarto passo do dia foi ${passos.passo4} às ${passos.hora4}hs.`)
+console.log(`O quinto passo do dia foi ${passos.passo5} às ${passos.hora5}hs.`)

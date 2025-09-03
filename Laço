@@ -1,0 +1,130 @@
+/*var passo;
+
+for (passo = 0; passo < 5; passo++) {
+    console.log("Ande um passo para o leste");
+}
+
+
+var passo;
+
+for (passo = 0; passo <= 5; passo++) {
+    console.log("Ande um passo para o leste");
+}
+
+
+var passo;
+
+for (passo = 0; passo <= 5; passo = passo + 2) {
+    console.log("Ande um passo para o leste");
+}
+
+
+
+var numero;
+
+for (numero = 1; numero <= 100; numero++) {
+    console.log(numero);
+}
+
+
+
+var numero;
+
+for (numero = 2; numero <= 100; numero = numero + 2) {
+    console.log(numero);
+}
+
+
+
+var numero;
+
+for (numero = 1; numero <= 100; numero = numero + 2) {
+    console.log(numero);
+}
+
+
+
+var numero;
+
+for (numero = 1; numero <= 100; numero++) {
+
+    if (numero % 2 == 0) {
+        console.log(numero);
+    }
+    
+}
+
+
+
+var numero;
+
+for (numero = 1; numero <= 100; numero++) {
+
+    if (numero % 5 == 0) {
+        console.log(numero);
+    }
+    
+}
+
+
+
+var i = 0;
+
+do {
+    i += 1;
+    console.log(i);
+} while (i < 5);
+
+
+
+var i = 0;
+
+do {
+    if (i % 2 == 0) {
+        console.log(i);
+    }
+    i += 1;
+} while (i <= 20);
+
+
+
+var i = 0;
+
+do {
+    if (i % 2 != 0) {
+        console.log(i);
+    }
+    i += 1;
+} while (i <= 20);
+
+
+
+let n = 0;
+
+let x = 0;
+
+while (n < 3) {
+    n++;
+    x += n;
+    console.log(x);
+}
+
+
+
+let numero = 10;
+
+while (numero > 0) {
+    console.log(numero);
+    numero -= 1;
+}*/
+
+
+
+let numero = 20;
+
+while (numero >= 0) {
+    if(numero % 2 == 0) {
+        console.log(numero);        
+    }
+    numero -= 1;
+}
