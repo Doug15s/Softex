@@ -1,0 +1,80 @@
+/*let idade = 10;
+
+if (idade >= 18) {
+    console.log(`Sua idade é ${idade} anos, portanto você já atingiu a maior idade!`);
+} else {
+    console.log(`Sua idade é ${idade} anos, portanto você ainda não atingiu a maior idade!`);
+}
+
+
+
+
+
+let idade = prompt('Quantos anos você tem?');
+
+if (idade >= 18) {
+    alert(`Sua idade é ${idade} anos, portanto você já atingiu a maior idade!`);
+} else {
+    alert(`Sua idade é ${idade} anos, portanto você ainda não atingiu a maior idade!`);
+}*/
+
+
+
+
+alert(`Pense em um número de um a dez!`);
+
+let numero = prompt(`O número que pensou é par ou ímpar? ** Digite P para par, I para ímpar **`);
+
+if (numero == "P") {
+    let parmaior = prompt(`O número que pensou é maior que 5? ** Digite S para sim, N para não **`);
+
+    if (parmaior == "S") {
+        let multiplotres = prompt(`O número que pensou é múltiplo de 3? ** Digite S para sim, N para não **`);
+        
+        if (multiplotres == "S") {
+            alert(`O número que pensou é o 6!`)
+        } else if (multiplotres == "N") {
+            let multiplocinco = prompt(`O número que pensou é múltiplo de 5? ** Digite S para sim, N para não **`)
+
+            if (multiplocinco == "S") {
+                alert(`O número que pensou é o 10!`)
+            } else {
+                alert(`O número que pensou é o 8!`)
+            }
+        }
+    } else {
+        let parprimo = prompt(`O número que pensou é primo? ** Digite S para sim, N para não **`);
+
+        if (parprimo == "S") {
+            alert(`O número que pensou é o 2!`)
+        } else {
+            alert(`O número que pensou é o 4!`)
+        }
+    }
+} else {
+    let imparmaior = prompt(`O número que pensou é maior que 4? ** Digite S para sim, N para não **`);
+
+    if (imparmaior == "S") {
+        let imparprimo = prompt(`O número que pensou é primo? ** Digite S para sim, N para não **`);
+
+        if (imparprimo == "S") {
+            let imparcinco = prompt(`O número que pensou é múltiplo de cinco? ** Digite S para sim, N para não **`);
+
+            if (imparcinco == "S") {
+                alert(`O número que pensou é o 5!`);
+            } else {
+                alert(`O número que pensou é o 7!`);
+            }
+        } else {
+            alert(`O número que pensou é o 9!`);
+        }
+    } else {
+        let impartres = prompt(`O número que pensou é múltiplo de 3? ** Digite S para sim, N para não **`);
+
+        if (impartres == "S") {
+            alert(`O número que pensou é o 3!`);
+        } else {
+            alert(`O número que pensou é o 1!`)
+        }
+    }
+}
