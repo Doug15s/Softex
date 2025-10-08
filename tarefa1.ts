@@ -1,5 +1,5 @@
 class Carro {
-    modelo: string;
+    /*modelo: string;
     marca: string;
     ano: number;
 
@@ -8,6 +8,9 @@ class Carro {
         this.marca = marca;
         this.ano = ano;
     }
+    */
+
+    constructor(public modelo: string, public marca: string, public ano: number) {}
 
     exibirCarro() {
         console.log(`Seu carro é um ${this.marca} ${this.modelo}, ano ${this.ano}.`);
