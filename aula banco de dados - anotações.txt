@@ -1,0 +1,55 @@
+linha = registro
+coluna = campo
+
+primeiro principio: dados redundantes;
+segundo principio: 
+
+dividir em tabelas baseadas em assuntos;
+
+
+determinar a finalidade do banco de dados;
+organizar as informações necessárias;
+dividir em tabelas;
+transformar informações em colunas;
+chaves primárias;
+relações entre tabelas;
+refinar a estrutura;
+aplicar regras de normalização;
+
+se repetir informações em mais de uma tabela, coloque essas informações em uma tabela separada;
+
+uma tabela de armazenar dados apenas sobre um assunto;
+
+cada dado deve estar em uma coluna (endreço, por exemplo) para otimizar a busca do dado;
+
+não incluir dados calculados;
+
+dividir as informações em partes lógicas (nome e apelido, por exemplo);
+
+a chave primária pode ser referenciada em outras tabelas;
+
+caso não possua um dado único (cpf, por exemplo) para utilizar como chave primária, utilizar um campo ID com autonumber;
+
+relação de um para um: assuntos iguais, mesma chave primária para ambas; assuntos diferentes, escolha uma e insira sua chave primária como chave estrangeira
+na outra tabela;
+
+criar e preencher as tabelas em busca de inconsitencias;
+
+primeira forma normal: cada célula deve conter apenas um valor;
+
+segunda forma normal: toda coluna não-chave deve depender totalmente de toda a chave primária, não apenas de parte da chave;
+
+terceira forma normal: uma coluna não chave não deve depender de outra coluna não chave;
+
+
+
+
+
+relação de um para muitos é referenciada quando se adiciona uma chave estrangeira;(dúvida)
+
+relação de muitos para muitos é necessário criar uma terceira tabela ou tabela de junção. Esta terceira tabela possui chave primária; (dúvida)
+
+
+
+
+tentar criar um texto de maneira clara qual é a finalidade do banco de dados (tarefa!!!);
